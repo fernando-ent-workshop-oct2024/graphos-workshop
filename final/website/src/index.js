@@ -14,7 +14,8 @@ import theme from './theme.js';
 import {ChakraProvider} from '@chakra-ui/react';
 import { DEFAULT_ROUTER_URL } from './config';
 
-const routerUrl = process.env.ROUTER_URL;
+const routerUrl = process.env.REACT_APP_ROUTER_URL;
+console.log('Using routerUrl', routerUrl);
 
 // ----- Configure the apollo client here ------
 const client = new ApolloClient({
