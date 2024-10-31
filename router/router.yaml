@@ -14,6 +14,7 @@ homepage:
 cors:
   origins:
     - https://studio.apollographql.com
+    - *.64jm7cjzuq-uc.a.run.app
   allow_credentials: true
 
 # This would make debugging easier, but should be a per subgraph basis for production
